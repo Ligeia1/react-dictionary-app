@@ -3,7 +3,7 @@ import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 
-export default function Dictionary() {
+export default function Dictionary(props) {
   let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
 
@@ -26,14 +26,20 @@ export default function Dictionary() {
   }
 
   return (
-    <div className="Dictionary">
-      <form onSubmit={searchKeyword}>
-        <input
-          type="search"
-          placeholder="search for a word"
-          onChange={updateKeyword}
-        />
-      </form>
+    <div className="Dictionary shadow-sm">
+      <section>
+        <form onSubmit={searchKeyword}>
+          <input
+            type="search"
+            placeholder="search for a word"
+            onChange={updateKeyword}
+          />
+        </form>
+        <p>
+          What word would you like to look up? Suggestions: wine, coding, moon,
+          tiger, ...
+        </p>
+      </section>
       <Results results={results} />
     </div>
   );

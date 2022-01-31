@@ -1,0 +1,10 @@
+.Dictionary section {
+  background-color: rgba(250, 218, 192, 0.7);
+  border-radius: 8px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.Dictionary input {
+  border-radius: 10px;
+}

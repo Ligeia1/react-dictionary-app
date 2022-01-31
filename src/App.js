@@ -9,6 +9,10 @@ function App() {
         style={{
           backgroundImage: `url(${background})`,
           backgroundSize: "100%",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          width: "100vw",
+          height: "100vh",
         }}
       >
         <div className="container">
@@ -21,7 +25,7 @@ function App() {
             {" "}
             This project was coded by Olga Mang and is open-sourced on{" "}
             <a
-              href="https://github.com/Ligeia1/weather-app-react"
+              href="https://github.com/Ligeia1/react-dictionary-app"
               target="_blank"
               rel="noopener noreferrer"
             >

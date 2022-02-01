@@ -4,24 +4,27 @@ section {
   text-align: center;
   padding: 30px 20px 20px 20px;
   color: bisque;
-  margin: 5px 20px 20px 20px;
+  margin-bottom: 15px;
 }
 
-.App {
+body {
   text-align: center;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(0, 107, 141) 0%,
     rgb(0, 69, 91) 90%
   );
-  height: 100vh;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .App h1 {
   font-family: "Tangerine", cursive;
   font-weight: 700;
   font-size: 80px;
-  background-size: cover;
   color: bisque;
   padding-top: 10px;
 }
@@ -29,4 +32,5 @@ section {
 .App footer {
   width: max-content;
   margin: 0 auto;
+  font-size: 10px;
 }

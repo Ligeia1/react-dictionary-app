@@ -8,8 +8,8 @@ function App() {
         <h1>Dictionary</h1>
 
         <Dictionary />
-        <footer className="text-center mt-4">
-          <small>
+        <div className="row">
+          <footer className="text-center mt-4">
             {" "}
             This project was coded by Olga Mang and is open-sourced on{" "}
             <a
@@ -27,8 +27,8 @@ function App() {
             >
               Netlify{" "}
             </a>
-          </small>
-        </footer>
+          </footer>
+        </div>
       </div>
     </div>
   );

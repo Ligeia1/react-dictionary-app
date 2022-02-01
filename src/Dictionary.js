@@ -28,16 +28,16 @@ export default function Dictionary(props) {
   return (
     <div className="Dictionary shadow-sm">
       <section>
+        <p>What word would you like to look up? </p>
         <form onSubmit={searchKeyword}>
           <input
             type="search"
-            placeholder="search for a word"
+            placeholder=" search for a word"
             onChange={updateKeyword}
           />
         </form>
-        <p>
-          What word would you like to look up? Suggestions: wine, coding, moon,
-          tiger, ...
+        <p className="suggestions">
+          Suggestions: wine, coffee, moon, sunset, ...
         </p>
       </section>
       <Results results={results} />

@@ -1,0 +1,16 @@
+.Phonetics .fa-headphones {
+  font-size: 22px;
+  margin-left: 10px;
+  color: bisque;
+  border: 1px solid bisque;
+  border-radius: 90px;
+  padding: 8px;
+}
+
+.Phonetics h3 {
+  font-size: 30px;
+}
+
+.Phonetics .phonetics-text {
+  font-size: 26px;
+}

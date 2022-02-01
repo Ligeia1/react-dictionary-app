@@ -1,25 +1,13 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
-import background from "./image/bib.jpg";
 
 function App() {
   return (
     <div className="App">
-      <div
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundSize: "100%",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          width: "100vw",
-          height: "100vh",
-        }}
-      >
-        <div className="container">
-          <h1>Dictionary</h1>
+      <div className="container">
+        <h1>Dictionary</h1>
 
-          <Dictionary />
-        </div>
+        <Dictionary />
         <footer className="text-center mt-4">
           <small>
             {" "}

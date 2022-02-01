@@ -1,10 +1,20 @@
-.App {
+section {
+  background-color: rgba(204, 248, 246, 0.3);
+  border-radius: 8px;
   text-align: center;
+  padding: 30px 20px 20px 20px;
+  color: bisque;
+  margin: 5px 20px 20px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 107, 141) 0%,
+    rgb(0, 69, 91) 90%
+  );
+  height: 100vh;
 }
 
 .App h1 {
@@ -13,9 +23,10 @@
   font-size: 80px;
   background-size: cover;
   color: bisque;
+  padding-top: 10px;
 }
 
 .App footer {
-  background-color: rgba(250, 218, 192, 0.2);
-  background-size: 50px;
+  width: max-content;
+  margin: 0 auto;
 }

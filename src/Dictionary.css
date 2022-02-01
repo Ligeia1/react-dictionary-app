@@ -1,10 +1,8 @@
-.Dictionary section {
-  background-color: rgba(250, 218, 192, 0.7);
-  border-radius: 8px;
-  max-width: 100%;
-  text-align: center;
+.Dictionary .suggestions {
+  font-size: 14px;
 }
 
 .Dictionary input {
   border-radius: 10px;
+  color: #004f68;
 }

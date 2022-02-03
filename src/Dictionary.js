@@ -39,7 +39,7 @@ export default function Dictionary() {
   return (
     <div className="Dictionary shadow-sm">
       <section>
-        <p>What word would you like to look up? </p>
+        <p className="mt-2">What word would you like to look up? </p>
         <form onSubmit={searchKeyword}>
           <input
             type="search"

@@ -1,0 +1,19 @@
+.Meaning h4 {
+  font-weight: 700;
+  font-family: "Tangerine", cursive;
+  font-size: 50px;
+  margin: 0;
+}
+
+.Meaning em {
+  opacity: 0.9;
+}
+
+.Meaning li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.Meaning .definition {
+  font-size: 18px;
+}

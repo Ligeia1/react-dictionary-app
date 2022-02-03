@@ -10,7 +10,7 @@ export default function Photos(props) {
           <div className="row">
             {props.pictures.map(function (picture, index) {
               return (
-                <div className="col-4" key={index}>
+                <div className="col-md-4" key={index}>
                   <a
                     href={picture.src.original}
                     target="_blank"

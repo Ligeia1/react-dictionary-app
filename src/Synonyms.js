@@ -5,7 +5,11 @@ export default function Synonyms(props) {
     return (
       <div className="Synonyms">
         {props.synonyms.map(function (synonyms, index) {
-          return <span key={index}> {synonyms} |</span>;
+          return (
+            <span key={index} className="opacity-75">
+              | {synonyms} |
+            </span>
+          );
         })}
       </div>
     );
